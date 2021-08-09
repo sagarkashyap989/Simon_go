@@ -26,7 +26,7 @@ width: auto;
 
   }
   .margin{
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
   #refresh{
       height: 58px;
@@ -117,12 +117,14 @@ h3{
 }
 @media only screen and (max-width: 60em) {
 
+
+
   #level-title {
-    margin-top: 1px;
+    font-size: 18px;
+    margin-top: 58px;
 
   }
-  
-  
+
     .container {
       width: 100%;
     padding-top: 30px;
@@ -140,12 +142,20 @@ h3{
       clear: none;
     }
     .a {
-        width: 20px;
-        height: 30px;
+        width: 1px;
+        height: 1px;
+    }
+.astronaut{
+  clear: :none;
+}
+
+    .astronaut{
+    height: 1px;
+    width: 5px;
     }
 
     #refresh{
-  height: 110px;
+  height: 10px;
   width: 0px;
   background-color: black;
   opacity: 70%;
@@ -175,8 +185,6 @@ h3{
 
   z-index: -1;
 }
-
-
 .astronaut{
 height: 100px;
 width: 150px;
@@ -232,7 +240,7 @@ width: 150px;
   width: 90px;
   display: inline-block;
   border-radius: 20%;
-  opacity:70%;
+  opacity:80%;
 }
 
 /***********************************************************/
